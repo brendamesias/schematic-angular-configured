@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "new-project": {
+      "description": "config new angular project with rules to format code with slint and prettier",
+      "factory": "./new-project/index#generateNewProject",
+      "schema": "./new-project/schema.json"
+    }
+  }
+}

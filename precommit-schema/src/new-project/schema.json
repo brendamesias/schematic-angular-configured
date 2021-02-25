@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "id": "NewRepoSchematic",
+    "title": "ng new options schema",
+    "type": "object",
+    "description": "Initialise a new project",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "The name of the project",
+        "x-prompt": "please, write the new projectname:"
+      } 
+    },
+    "required": [
+      "name"
+    ]
+   }
