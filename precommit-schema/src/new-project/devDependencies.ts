@@ -1,0 +1,21 @@
+export const devDependencies: { [key: string]: string } = {
+  "@angular-devkit/build-angular": "~0.1102.1",
+  "@angular-eslint/builder": "0.0.1-alpha.32",
+  "@angular-eslint/eslint-plugin": "0.0.1-alpha.32",
+  "@angular-eslint/eslint-plugin-template": "0.0.1-alpha.32",
+  "@angular-eslint/schematics": "0.0.1-alpha.32",
+  "@angular-eslint/template-parser": "0.0.1-alpha.32",
+  "@typescript-eslint/eslint-plugin": "4.3.0",
+  "@typescript-eslint/parser": "4.3.0",
+  "eslint": "^6.8.0",
+  "@angular/compiler-cli": "~11.2.1",
+  "eslint-config-airbnb-typescript": "^7.2.1",
+  "eslint-config-prettier": "^6.11.0",
+  "eslint-plugin-import": "^2.20.2",
+  "eslint-plugin-jsdoc": "30.7.6",
+  "eslint-plugin-prettier": "^3.1.3",
+  "husky": "^4.2.5",
+  "lint-staged": "^10.2.2",
+  "prettier": "^2.0.5",
+  "typescript": "~3.8.3"
+};
