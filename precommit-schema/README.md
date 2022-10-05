@@ -1,4 +1,4 @@
-#Build and publish custom schematics
+# Build and publish custom schematics
 
 ### 1. run npm rum build command instead
 ### 2.Now we could run npm publish but let’s run npm pack instead which will give us precommit-lint-prettier-new-project-1.0.0.tgz file which we can copy to some Angular CLI workspace project.
