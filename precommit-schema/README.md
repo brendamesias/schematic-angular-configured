@@ -1,28 +1,7 @@
-# Getting Started With Schematics
+#Build and publish custom schematics
 
-This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
-
-### Testing
-
-To test locally, install `@angular-devkit/schematics-cli` globally and use the `schematics` command line tool. That tool acts the same as the `generate` command of the Angular CLI, but also has a debug mode.
-
-Check the documentation with
-```bash
-schematics --help
-```
-
-### Unit Testing
-
-`npm run test` will run the unit tests, using Jasmine as a runner and test framework.
-
-### Publishing
-
-To publish, simply do:
-
-```bash
-npm run build
-npm publish
-```
-
-That's it!
+### 1. run npm rum build command instead
+### 2.Now we could run npm publish but let’s run npm pack instead which will give us precommit-lint-prettier-new-project-1.0.0.tgz file which we can copy to some Angular CLI workspace project.
+### 3. Then, in the target Angular CLI workspace we can run npm i --no-save precommit-lint-prettier-new-project-1.0.0.tgz which will install our package into that project.
+### 4. The last step is to run schematics by referencing package name instead of the path to local schematics project. We can run ng g @precommit-lint-prettier/new-project
  
